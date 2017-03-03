@@ -9,4 +9,4 @@ obj/
 Gemfile
 Gemfile.lock
 _site/
-
+app/.externalNativeBuild/
