@@ -1,0 +1,136 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* Android.mk
+* CleanSpec.mk
+* gallerycommon/
+* gallerycommon/Android.mk
+* gallerycommon/src/
+* gallerycommon/src/com/
+* gallerycommon/src/com/android/
+* gallerycommon/src/com/android/gallery3d/
+* gallerycommon/src/com/android/gallery3d/common/
+* gallerycommon/src/com/android/gallery3d/common/ApiHelper.java
+* gallerycommon/src/com/android/gallery3d/common/AsyncTaskUtil.java
+* gallerycommon/src/com/android/gallery3d/common/BitmapUtils.java
+* gallerycommon/src/com/android/gallery3d/common/BlobCache.java
+* gallerycommon/src/com/android/gallery3d/common/Entry.java
+* gallerycommon/src/com/android/gallery3d/common/EntrySchema.java
+* gallerycommon/src/com/android/gallery3d/common/FileCache.java
+* gallerycommon/src/com/android/gallery3d/common/Fingerprint.java
+* gallerycommon/src/com/android/gallery3d/common/HttpClientFactory.java
+* gallerycommon/src/com/android/gallery3d/common/LruCache.java
+* gallerycommon/src/com/android/gallery3d/common/OverScroller.java
+* gallerycommon/src/com/android/gallery3d/common/Scroller.java
+* gallerycommon/src/com/android/gallery3d/common/Utils.java
+* gallerycommon/src/com/android/gallery3d/exif/
+* gallerycommon/src/com/android/gallery3d/exif/ByteBufferInputStream.java
+* gallerycommon/src/com/android/gallery3d/exif/CountedDataInputStream.java
+* gallerycommon/src/com/android/gallery3d/exif/ExifData.java
+* gallerycommon/src/com/android/gallery3d/exif/ExifInterface.java
+* gallerycommon/src/com/android/gallery3d/exif/ExifInvalidFormatException.java
+* gallerycommon/src/com/android/gallery3d/exif/ExifModifier.java
+* gallerycommon/src/com/android/gallery3d/exif/ExifOutputStream.java
+* gallerycommon/src/com/android/gallery3d/exif/ExifParser.java
+* gallerycommon/src/com/android/gallery3d/exif/ExifReader.java
+* gallerycommon/src/com/android/gallery3d/exif/ExifTag.java
+* gallerycommon/src/com/android/gallery3d/exif/IfdData.java
+* gallerycommon/src/com/android/gallery3d/exif/IfdId.java
+* gallerycommon/src/com/android/gallery3d/exif/JpegHeader.java
+* gallerycommon/src/com/android/gallery3d/exif/OrderedDataOutputStream.java
+* gallerycommon/src/com/android/gallery3d/exif/Rational.java
+* gallerycommon/src/com/android/gallery3d/jpegstream/
+* gallerycommon/src/com/android/gallery3d/jpegstream/JPEGInputStream.java
+* gallerycommon/src/com/android/gallery3d/jpegstream/JPEGOutputStream.java
+* gallerycommon/src/com/android/gallery3d/jpegstream/JpegConfig.java
+* gallerycommon/src/com/android/gallery3d/jpegstream/StreamUtils.java
+* gallerycommon/src/com/android/gallery3d/util/
+* gallerycommon/src/com/android/gallery3d/util/Future.java
+* gallerycommon/src/com/android/gallery3d/util/FutureListener.java
+* gallerycommon/src/com/android/gallery3d/util/PriorityThreadFactory.java
+* gallerycommon/src/com/android/gallery3d/util/ThreadPool.java
+* jni_jpegstream/
+* jni_jpegstream/Android.mk
+* jni_jpegstream/src/
+* jni_jpegstream/src/error_codes.h
+* jni_jpegstream/src/inputstream_wrapper.cpp
+* jni_jpegstream/src/inputstream_wrapper.h
+* jni_jpegstream/src/jerr_hook.cpp
+* jni_jpegstream/src/jerr_hook.h
+* jni_jpegstream/src/jni_defines.h
+* jni_jpegstream/src/jpeg_config.h
+* jni_jpegstream/src/jpeg_hook.cpp
+* jni_jpegstream/src/jpeg_hook.h
+* jni_jpegstream/src/jpeg_reader.cpp
+* jni_jpegstream/src/jpeg_reader.h
+* jni_jpegstream/src/jpeg_writer.cpp
+* jni_jpegstream/src/jpeg_writer.h
+* jni_jpegstream/src/jpegstream.cpp
+* jni_jpegstream/src/outputstream_wrapper.cpp
+* jni_jpegstream/src/outputstream_wrapper.h
+* jni_jpegstream/src/stream_wrapper.cpp
+* jni_jpegstream/src/stream_wrapper.h
+* proguard.flags
+* src_pd/
+* src_pd/com/
+* src_pd/com/android/
+* src_pd/com/android/gallery3d/
+* src_pd/com/android/gallery3d/app/
+* src_pd/com/android/gallery3d/app/StitchingProgressManager.java
+* src_pd/com/android/gallery3d/filtershow/
+* src_pd/com/android/gallery3d/filtershow/editors/
+* src_pd/com/android/gallery3d/filtershow/editors/EditorManager.java
+* src_pd/com/android/gallery3d/filtershow/filters/
+* src_pd/com/android/gallery3d/filtershow/filters/FiltersManager.java
+* src_pd/com/android/gallery3d/picasasource/
+* src_pd/com/android/gallery3d/picasasource/PicasaSource.java
+* src_pd/com/android/gallery3d/settings/
+* src_pd/com/android/gallery3d/settings/GallerySettings.java
+* src_pd/com/android/gallery3d/util/
+* src_pd/com/android/gallery3d/util/FilterShowHelper.java
+* src_pd/com/android/gallery3d/util/HelpUtils.java
+* src_pd/com/android/gallery3d/util/IntentHelper.java
+* src_pd/com/android/gallery3d/util/LightCycleHelper.java
+* src_pd/com/android/gallery3d/util/PanoramaViewHelper.java
+* src_pd/com/android/gallery3d/util/UsageStatistics.java
+* src_pd/com/android/gallery3d/util/XmpUtilHelper.java
+* src_pd/com/android/photos/
+* src_pd/com/android/photos/data/
+* src_pd/com/android/photos/data/PhotoProviderAuthority.java
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* jni/ => app/src/main/jni/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/com/android/gallery3d/filtershow/filters/convolve3x3.rs => app/src/main/rs/convolve3x3.rs
+* src/com/android/gallery3d/filtershow/filters/grad.rs => app/src/main/rs/grad.rs
+* src/com/android/gallery3d/filtershow/filters/grey.rs => app/src/main/rs/grey.rs
+* src/com/android/gallery3d/filtershow/filters/saturation.rs => app/src/main/rs/saturation.rs
+* src/com/android/gallery3d/filtershow/filters/vignette.rs => app/src/main/rs/vignette.rs
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
